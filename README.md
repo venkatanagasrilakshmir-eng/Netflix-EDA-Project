@@ -62,20 +62,21 @@ United States produces the highest content.
 Netflix content significantly increased after 2015.
 Drama and International Movies are the most common genres.
 # Technologies Used
-Python 🐍
-Pandas 📊
-NumPy 🔢
-Matplotlib 📈
-Seaborn 🎨
-Jupyter Notebook 📓
+Python,
+Pandas,
+NumPy,
+Matplotlib,
+Seaborn,
+Jupyter Notebook,
 Sample Visuals Preview
 Dashboard Style Overview
 <img width="1361" height="758" alt="57997" src="https://github.com/user-attachments/assets/eb709ccb-7a67-4c6b-b8be-02596353763a" />
 # How to Run This Project
-1. Clone Repository
+1: Clone Repository
 git clone https://github.com/your-username/Netflix-EDA-Project.git
-2. Install Dependencies
+
+2: Install Dependencies
 pip install pandas numpy matplotlib seaborn jupyter
 
-3.Run Notebook
+3: Run Notebook
 jupyter notebook notebooks/netflix_eda.ipynb
