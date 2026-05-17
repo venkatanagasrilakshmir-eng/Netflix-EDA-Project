@@ -76,5 +76,6 @@ Dashboard Style Overview
 git clone https://github.com/your-username/Netflix-EDA-Project.git
 2. Install Dependencies
 pip install pandas numpy matplotlib seaborn jupyter
-3 Run Notebook
+
+3.Run Notebook
 jupyter notebook notebooks/netflix_eda.ipynb
