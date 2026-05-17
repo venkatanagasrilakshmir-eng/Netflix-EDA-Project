@@ -1,0 +1,18 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+s1,Movie,Red Notice,Rawson Marshall Thurber,Dwayne Johnson,United States,"November 12, 2021",2021,PG-13,118 min,"Action & Adventure","An FBI profiler pursues the world's most wanted art thief."
+s2,TV Show,Stranger Things,The Duffer Brothers,Millie Bobby Brown,United States,"July 15, 2016",2016,TV-14,4 Seasons,"Sci-Fi & Fantasy","A group of kids uncover supernatural mysteries."
+s3,Movie,RRR,S. S. Rajamouli,Ram Charan,India,"March 25, 2022",2022,TV-MA,182 min,"Action & Adventure","Two revolutionaries fight against British rule."
+s4,Movie,Extraction,Sam Hargrave,Chris Hemsworth,United States,"April 24, 2020",2020,R,116 min,"Action & Adventure","A black-market mercenary rescues a kidnapped boy."
+s5,TV Show,Money Heist,Álex Pina,Úrsula Corberó,Spain,"May 2, 2017",2017,TV-MA,5 Seasons,"Crime TV Shows","A criminal mastermind plans the biggest heist."
+s6,Movie,Leo,Lokesh Kanagaraj,Vijay,India,"October 19, 2023",2023,U/A 16+,164 min,"Action & Adventure","A café owner faces dangerous gangsters."
+s7,Movie,The Gray Man,Anthony Russo,Ryan Gosling,United States,"July 22, 2022",2022,PG-13,129 min,"Thriller","A CIA operative uncovers dark secrets."
+s8,TV Show,Wednesday,Tim Burton,Jenna Ortega,United States,"November 23, 2022",2022,TV-14,1 Season,"Comedy","Wednesday Addams joins Nevermore Academy."
+s9,Movie,Jawan,Atlee,Shah Rukh Khan,India,"September 7, 2023",2023,U/A 13+,169 min,"Action & Adventure","A vigilante fights corruption in society."
+s10,TV Show,Dark,Baran bo Odar,Louis Hofmann,Germany,"December 1, 2017",2017,TV-MA,3 Seasons,"Mystery","Families uncover a time-travel conspiracy."
+import pandas as pd
+
+# Load Dataset
+df = pd.read_csv("../data/netflix_titles.csv")
+
+# Display Dataset
+print(df.head())
